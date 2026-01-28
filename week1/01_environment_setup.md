@@ -69,6 +69,7 @@ git config --global user.email "your.email@example.com"
 ```
 
 ### Essential Commands
+ learn git: [Learn Git Branching](https://learngitbranching.js.org/)
 ```powershell
 # Initialize a repository
 git init
@@ -87,7 +88,7 @@ git commit -m "Your message"
 git log --oneline
 
 # Push to remote
-git push origin main
+git push origin master
 ```
 
 ## 5. Your First Python File
