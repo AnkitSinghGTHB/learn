@@ -74,9 +74,29 @@ def count_word_frequencies(text):
     - Remove punctuation
     - Return a dictionary {word: count}
     """
-    # TODO: Implement this function
-    pass
-
+    #text = "Priya is good, Priya is smart."
+    text = text.lower() #text = "priya is good, priya is smart."
+    text = text.replace(",","") #text = "priya is good priya is smart."
+    text = text.replace(".","") #text = "priya is good priya is smart"
+    words=[]
+    temp=""
+    for i in text:
+        if i==" ":
+            words.append(temp)
+            temp=""
+        else:
+            temp+=i
+    words.append(temp)
+    temp=""
+    #words = text.split() # words=["priya", "is", "good", "priya", "is", "smart"]
+    word_counts = {}
+    for word in words:
+        if word in word_counts:
+            word_counts[word] +=1
+        else:
+            word_counts[word] = 1
+    return word_counts
+    
 
 # Test word frequency counter:
 if __name__ == "__main__":
@@ -84,8 +104,7 @@ if __name__ == "__main__":
     print("Testing Word Frequency Counter")
     print("=" * 50)
     
-    sample_text = """Python is a great programming language.
-    Python is easy to learn. Python is powerful."""
+    sample_text = "Priya is good, Priya is smart."
     
     frequencies = count_word_frequencies(sample_text)
     print(f"Word frequencies: {frequencies}")
