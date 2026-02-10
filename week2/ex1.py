@@ -104,7 +104,8 @@ if __name__ == "__main__":
     print("Testing Word Frequency Counter")
     print("=" * 50)
     
-    sample_text = "Priya is good, Priya is smart."
+    sample_text = """Python is a great programming language.
+    Python is easy to learn. Python is powerful."""
     
     frequencies = count_word_frequencies(sample_text)
     print(f"Word frequencies: {frequencies}")

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Alice Smith",
+    "phone": "123-456-7890",
+    "email": "alice@email.com"
+  },
+  {
+    "name": "Bob Jones",
+    "phone": "098-765-4321",
+    "email": "bob@email.com"
+  },
+  {
+    "name": "Charlie Brown",
+    "phone": "555-1234",
+    "email": null
+  },
+  {
+    "name": "Signe Andersen",
+    "phone": "81906036",
+    "email": "signe.andersen@example.com"
+  },
+  {
+    "name": "Deepika Pujari",
+    "phone": "9603414375",
+    "email": "deepika.pujari@example.com"
+  },
+  {
+    "name": "Thelma Rolandsen",
+    "phone": "58590315",
+    "email": "thelma.rolandsen@example.com"
+  },
+  {
+    "name": "Vsevlad Turchenko",
+    "phone": "(097) W98-5218",
+    "email": "vsevlad.turchenko@example.com"
+  }
+]
